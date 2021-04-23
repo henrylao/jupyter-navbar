@@ -6,30 +6,30 @@
 #split_wrapper {
   display: flex;
   height: 100%;
+  width: 100%;
   flex-direction: row;
 }
 
 #site_wrapper {
   flex-grow: 1;
-  overflow: auto:
+  overflow: auto;
 }
 
 #site {
-  overflow: initial:
+  overflow: initial;
 }
 
 #nav_wrapper {
   resize: horizontal;
-  width: 300px;
-  
+  max-width: 500px;
   border-right: 2px solid #aaa;
-  overflow-x: hidden;
+  overflow-x: auto;
   overflow-y: auto;
   position: relative;
 }
 
 #navbar {
-  padding: 15px 10px 0 5px;
+  padding: 25px 10px 0 5px;
 }
 
 #navbar ol {
@@ -79,7 +79,7 @@
 }
 
 #nav_wrapper.collapsed {
-  width: 10px !important; 
+  width: 50px !important; 
   resize: none;
 }
 
