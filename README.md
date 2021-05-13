@@ -57,20 +57,18 @@ The navbar displayed is in accordance to the number of '#' before the text of th
   width="650">
 </p>
 
-### Some Undesirable Effects
+### Undesirable Effects
 
-The current implementation assumes there exists '#' at each step of a heading when generating the navbar.
+- The current implementation assumes there exists '#' at each step of a heading when generating the navbar.
 
   <p float="left">
-  <img src="img/segmented-heading.png" 
-  width="650">
+  <img src="img/segmented-heading.png" width="650">
 </p>
 
-Inclusion of an extra '#' results in sections in the navbar being generated without a title.
+- Inclusion of an extra '#' results in sections in the navbar being generated without a title.
 
   <p float="left">
-  <img src="img/segmented-navbar-closeup.png" 
-  width="400">
+  <img src="img/segmented-navbar-closeup.png" width="450">
 </p>
 
 ## Compatibility with jupyter-themes
